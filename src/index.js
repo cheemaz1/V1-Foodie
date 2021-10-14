@@ -163,11 +163,6 @@ function queryBySearch(e) {
 
         });
 
-        var imag = document.createElement('img');
-        imag.className = 'legend';
-        imag.src = 'red_grad.png'
-        document.querySelector('.legendspace').appendChild(image)
-
 
 
 
