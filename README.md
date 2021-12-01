@@ -1,3 +1,4 @@
+Website is not hosted on server yet. Temporary use of this website requires https://cors-anywhere.herokuapp.com/corsdemo to be ran simulatenously.<br><br><br>
 **BACKGROUND**
 
 In Foodies, users will be able to:
