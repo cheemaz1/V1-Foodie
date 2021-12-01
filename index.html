@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/V1-Foodie/favicon.ico" />
+    <link rel="apple-touch-icon" href="./logo192.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>FOODIE</title>
+    <link rel="stylesheet" href="./src/styles/main.css" />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="./src/styles/modal.css">
+    <link href='./src/styles/newbutton.css' rel='stylesheet' />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Festive&family=Rubik:wght@900&family=ZCOOL+KuaiLe&display=swap"
+        rel="stylesheet">
+</head>
+
+<div id="container">
+
+    <header>are you <span class="last-word">hungry?</span><br>
+
+
+    </header>
+
+    <br>
+
+    <body>
+        <button id="find-me" class='geoloc'>Find Near Me!</button><br />
+        <p id="status"></p>
+        <a id="map-link" target="_blank"></a>
+        <script src="./dist/geolocation.js"></script>
+        <script src="./dist/distance.js"></script>
+
+        <!-- <form id="addForm" class="searchingform">
+    <input type="text" id="item" name="search-rest"  placeholder="Enter a Restaurant" required>
+    <input type="submit" class="submitbutton" value="Find!">
+
+    </form> -->
+        <div class="searchingform">
+
+            <input id="item" class="searchInput" type="text" name="" placeholder="Enter a Restaurant Name">
+            <button class="submitbutton" href="#">
+                <i class="submitbutton" id="addForm">
+                    search
+                </i>
+            </button>
+        </div>
+
+
+
+
+        <!-- <ul id="items" class="list-group">
+    <li class="list-group-item"></li>
+</ul> -->
+
+        <ul id="items" class="list-group">
+            <li class="list-group-item"></li>
+        </ul>
+
+        <script src="./src/index.js"></script>
+        <link rel="stylesheet" href="./src/styles/main.css" />
+
+
+        <div id='map' style='width: 1200px; height: 500px;'></div>
+        <div class="legendspace"></div>
+
+        <div class="modal is-open">
+            <div class="modal-text">
+                <h1 class="modal-title">Hungry?</h1>
+                <p>1. Click on the Find Near Me button
+                <p>2. Search for a restaurant that you are craving!</p>
+                <p>We will help you find a franchise that is close to you. You can also use the map to find other
+                    locations.</p><br>
+                <p><br>Map Markers:</p>
+                <p>Dark Red to Light Red means Good Rating to Bad Rating respectively.</p><br>
+                <p style="font-size:90%;">Developed by: Zayed Cheema<br><a href="https://github.com/cheemaz1"><i
+                            class="fa fa-github" style="font-size:24px;color:gray"></i></a><a
+                        href="https://www.linkedin.com/in/zayed-cheema-30521920a/"><i class="fa fa-linkedin-square"
+                            style="font-size:24px;color:#2867b2"></i></a></p>
+                </p>
+                <p>
+                </p>
+                <button class="modal-close">Get Started!</button>
+            </div>
+
+            <div class="modal-screen"></div>
+            <script src="./dist/modal.js"></script>
+        </div>
+
+
+
+
+    </body>
+</div>
+
+
+</html>
