@@ -17,7 +17,7 @@ let longcord = [];
 function queryBySearch(e) {
     e.preventDefault();
     var newItem = document.getElementById("item").value;
-    fetch(`https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=${newItem}&latitude=${latc}&longitude=${longc}&limit=20`, {
+    fetch(`https://cors-zc.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=${newItem}&latitude=${latc}&longitude=${longc}&limit=20`, {
         method: 'GET',
         headers: {
             Authorization: `Bearer QWy1cPDLl8PtwXi0EbDynwhj8308og8hGg9CM71OcqEWgJ7NpTuR0aE_hI_M4vTqdVkfGWudlRDo9egMfmT2LRsvEyd6HJB_3zKIToCtwJlfywjCGqYfwds3qVhfYXYx`

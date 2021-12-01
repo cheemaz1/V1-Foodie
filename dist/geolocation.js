@@ -35,6 +35,8 @@ function geoFindMe() {
     } else {
         status.style.color = '#fff'
         document.querySelector('*').style.cursor = 'wait'
+        // document.querySelector('geoloc').style.cursor = 'wait'
+        // document.querySelectorAll.style.cursor = 'wait'
         status.textContent = '';
         
         navigator.geolocation.getCurrentPosition(success, error);
