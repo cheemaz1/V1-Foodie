@@ -34,7 +34,7 @@ function geoFindMe() {
         alert('Geolocation is not supported by your browser') ;
     } else {
         status.style.color = '#fff'
-        document.querySelector('*').style.cursor = 'wait'
+        document.querySelector('*').style.cursor = 'progress'
         // document.querySelector('geoloc').style.cursor = 'wait'
         // document.querySelectorAll.style.cursor = 'wait'
         status.textContent = '';
