@@ -171,3 +171,13 @@ form {
 .legend {
     height: 50%;
 }
+
+
+.hyperlink {
+    color: #cec1c5;
+    outline-color: cornsilk;
+    text-decoration: none;
+
+
+
+}
