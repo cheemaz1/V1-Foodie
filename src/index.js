@@ -24,7 +24,7 @@ function queryBySearch(e) {
         }
     }).then((res) => {
         res.json().then(function (data) {
-            console.log(data);
+            // console.log(data);
             for (i = 0; i < data.businesses.length; i++) {
                 arr.push(data.businesses[i]);
             }
@@ -117,9 +117,9 @@ function queryBySearch(e) {
             //         }
             //     })
             // });
-            console.log(geojson)
-            console.log('passed')
-            console.log(arr)
+            // console.log(geojson)
+            // console.log('passed')
+            // console.log(arr)
 
             for (const { geometry, properties } of geojson.features) {
                 // create a HTML element for each feature
