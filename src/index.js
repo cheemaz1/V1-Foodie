@@ -84,7 +84,7 @@ function queryBySearch(e) {
                 container: 'map', // container ID
                 style: 'mapbox://styles/mapbox/navigation-night-v1', // style URL
                 center: [arr[0].coordinates.longitude, arr[0].coordinates.latitude], // starting position [lng, lat]
-                zoom: 14 // starting zoom
+                zoom: 12 // starting zoom
             });
             //set markers 
             const geojson = {

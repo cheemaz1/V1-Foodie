@@ -5,7 +5,8 @@
 .searchingform {
     position: absolute;
     top: 27%;
-    left: 50%;
+    /* left: 49%; */
+    margin-left: 49%;
     transform:  translate(-50%,50%);
     background: #ffffff;
     height: 40px;

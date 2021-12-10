@@ -38,7 +38,7 @@ ul {
     align-content: center;
     margin-left: 15%;
     margin-right: 15%;
-    margin-top: 20%;
+    margin-top: 10%;
     
 
   
@@ -116,11 +116,12 @@ header {
 }
 
 #map {
-    margin-left: 6.8%;
+    margin-left: 15%;
     margin-bottom: 3%;
-    margin-top: 6%
+    margin-top: 6%;
+    width: 70%;
+    height: 500px;
 }
-
 .marker {
   background-image: url('../../images/home.png');
   background-size: cover;
@@ -149,8 +150,8 @@ header {
     text-decoration: none;
     
     font-size: 16px;
-    margin-left: 45%;
-    /* cursor: pointer;  */
+    margin-left: 46.6%;
+    cursor: pointer; 
     margin-top: -80%;
     border-bottom: 10px;
     border-radius: 15px;
